@@ -1,0 +1,10 @@
+{
+  "name": "e-Metrology Digital Verification",
+  "short_name": "e-Metrology",
+  "description": "Digital verification and field inspection support for legal metrology instruments.",
+  "start_url": "/#field-operations",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0a3a60",
+  "icons": []
+}

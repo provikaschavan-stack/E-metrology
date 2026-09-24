@@ -57,14 +57,14 @@ export default function Navbar({ onOpenLogin, onOpenRegister, onOpenVerify, onOp
           <a 
             href="#hero" 
             onClick={(e) => { e.preventDefault(); scrollTo('#hero'); }}
-            className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none min-w-0"
+            className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none shrink-0"
           >
             {/* National Metrology Emblem / Balance Symbol */}
             <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#0a3a60] via-[#09426f] to-[#0284c7] text-white flex items-center justify-center shadow-sm ring-1 ring-sky-900/20 group-hover:scale-105 transition-transform duration-200 shrink-0">
               <Scale className="w-5 h-5 sm:w-6 sm:h-6 text-sky-100" />
             </div>
             
-            <div className="text-left truncate">
+            <div className="text-left min-w-[142px] sm:min-w-[178px]">
               <div className="flex items-center gap-1.5 sm:gap-2">
                 <span className="text-lg sm:text-2xl font-black tracking-tight text-[#0a3a60]">
                   E-Metrology
